@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
-        DOCKER_IMAGE = 'kastrov/bms:latest'
+        DOCKER_IMAGE = 'kodarishiva24/bms:latest'
     }
 
     stages {
